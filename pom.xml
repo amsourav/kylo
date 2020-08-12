@@ -239,6 +239,14 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+        <repository>
+      <id>martiansoftware</id>
+      <name>Martian Software Repository</name>
+      <url>http://mvn.martiansoftware.com/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
   </repositories>
 
   <licenses>
