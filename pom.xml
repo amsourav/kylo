@@ -133,7 +133,7 @@
       <id>central</id>
       <name>Maven Repository Switchboard</name>
       <layout>default</layout>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo.maven.apache.org/maven2</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
@@ -142,6 +142,14 @@
       <id>spring-milestones</id>
       <name>Spring Milestones</name>
       <url>https://repo.spring.io/libs-milestone</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+        <repository>
+      <id>martiansoftware</id>
+      <name>Martian Software Repository</name>
+      <url>http://mvn.martiansoftware.com/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
